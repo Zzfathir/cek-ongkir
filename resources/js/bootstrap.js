@@ -1,4 +1,10 @@
 import 'bootstrap';
+import 'select2';
+
+try {
+    require('bootstrap');
+    require('select2');
+}catch (e) {}
 
 /**
  * We'll load the axios HTTP library which allows us to easily issue requests
